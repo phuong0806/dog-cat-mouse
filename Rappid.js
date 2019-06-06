@@ -1,0 +1,3 @@
+function Rappid() {
+  this.stomach = [];
+}
