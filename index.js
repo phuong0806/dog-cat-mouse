@@ -1,7 +1,7 @@
-var Dog = require('./Dog');
 var Cat = require('./Cat');
+var Mouse = require('./Mouse');
 
-const dog = new Dog('Tom');
-const tom = new Cat();
-dog.sayHi();
-dog.eat(tom);
+var cat = new Cat();
+var mouse = new Mouse();
+cat.eat(mouse);
+console.log(cat);
